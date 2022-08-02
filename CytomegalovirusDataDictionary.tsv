@@ -1,0 +1,27 @@
+Position	Variable	Variable Label	Units	Codes
+1	ID	Patient ID		
+2	age	Recipient age at transplant	years	
+3	sex	Recipient sex		1 = Male; 0 = Female
+4	race	Recipient race		1 = White; 0 = African American
+5	diagnosis	Primary diagnosis		
+6	diagnosis type	Diagnosis type		1 = Myeloid; 0 = Lymphoid
+7	time to transplant	Time from diagnosis to transplant	months	
+8	prior radiation	Prior radiation therapy		0 = No; 1 = Yes
+9	prior chemo	Number of prior chemotherapy regimens		
+10	prior transplant	Prior transplant		0 = No; 1 = Yes
+11	recipient cmv	Recipient cytomegalovirus seropositive status		0 = Negative; 1 = Positive
+12	donor cmv	Donor cytomegalovirus seropositive status		0 = Negative; 1 = Positive
+13	donor sex	Donor sex		1 = Male; 0 = Female
+14	TNC dose	Total nucleated cell dose	x 10^8/kg	
+15	CD34 dose	CD34+ cell dose	x 10^8/kg	
+16	CD3 dose	CD3+ cell dose	x 10^8/kg	
+17	CD8 dose	CD8+ cell dose	x 10^8/kg	
+18	TBI dose	Total body irradiation dosage	cGy	
+19	C1/C2	HLA-Cw group		0 = Heterozygous; 1 = Homozygous
+20	aKIRs	Number of donoractivating killer immunoglobulin-like receptors		
+21	cmv	cytomegalovirus reactivation posttransplant		0 = No; 1 = Yes
+22	time to cmv	Time to cytomegalovirus reactivation	months	
+23	agvhd	Acute 2-4 graft versus host disease		0 = No; 1 = Yes
+24	time to agvhd	Time to acute 2-4 graft versus host disease	months	
+25	cgvhd	Chronic graft versus host disease		0 = No; 1 = Yes
+26	time to cgvhd	Time to chronic graft versus host disease	months	
