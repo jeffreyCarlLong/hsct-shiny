@@ -79,7 +79,7 @@ cytomegalovirus$cgvhd <- as.factor(cytomegalovirus$cgvhd)
 
 
 
-dict <- read.delim("~/r/shiny/DAPapp/hct_app/CytomegalovirusDataDictionary.tsv", sep = "\t")
+dict <- read.delim("~/r/hsct-shiny/CytomegalovirusDataDictionary.tsv", sep = "\t")
 
 
 # Define UI for application that draws a histogram
