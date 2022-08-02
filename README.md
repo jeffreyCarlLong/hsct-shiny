@@ -13,3 +13,4 @@ The HSCT Shiny App is composed of
   * data table
   * statistical summaries
   
+![](scatterplot.png)
