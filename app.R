@@ -178,8 +178,8 @@ ui <- fluidPage(
       tabPanel("Sactterplot", fluid = TRUE,
                sidebarLayout(
                  sidebarPanel(
-                   selectInput("scatterplot_x", "Select variable for scatterplot x-axis", choices = names(cytomegalovirus), selected = "diagnosis"),
-                   selectInput("scatterplot_y", "Select variable for scatterplot y-axis", choices = names(cytomegalovirus), selected = "time.to.transplant")
+                   selectInput("scatterplot_x", "Select variable for scatterplot x-axis", choices = names(cytomegalovirus), selected = "time.to.transplant"),
+                   selectInput("scatterplot_y", "Select variable for scatterplot y-axis", choices = names(cytomegalovirus), selected = "diagnosis")
                    ),
                  mainPanel(
                    plotOutput(outputId = "scatter")
