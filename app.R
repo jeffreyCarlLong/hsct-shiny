@@ -30,7 +30,8 @@ library(pool)
 library(RSQLite)
 
 library(ggplot2)
-
+library(reshape2)
+library(tidyverse)
 # con <- DBI::dbConnect(RSQLite::SQLite(), dbname = ":memory:")
 
 # remotes::install_github("higgi13425/medicaldata")
@@ -266,6 +267,7 @@ server <- function(input, output) {
     observeEvent(input$update, print(as.numeric(input$update)))
   })
   
+
   output$box <- renderPlot({
     boxplot(get(input$boxplot_y) ~ get(input$boxplot_x) , data=cytomegalovirus)
   })
