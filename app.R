@@ -241,7 +241,7 @@ server <- function(input, output) {
   output$kmplot <- renderPlot({
     
     plot(runSur(), 
-         col=c("red","sky blue","green","purple","orange","yellow"), xlab="Days", ylab="S(t)")
+         col=c("red","sky blue","green","purple","orange","yellow"), xlab="Months", ylab="S(t)")
     legend("bottomleft",cex=0.9,levels(selectedData()),fill= c("red","sky blue","green","purple","orange","yellow"))
     abline(v=input$xvalue,col=1,lty=2)
   })
