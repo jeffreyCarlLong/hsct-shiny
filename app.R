@@ -113,7 +113,7 @@ ui <- fluidPage(
                )
              )
     ),
-    tabPanel("Sactterplot", fluid = TRUE,
+    tabPanel("Scatterplot", fluid = TRUE,
              sidebarLayout(
                sidebarPanel(
                  selectInput("scatterplot_x", "Select variable for scatterplot x-axis", choices = names(cytomegalovirus), selected = "time.to.transplant"),
@@ -124,7 +124,7 @@ ui <- fluidPage(
                )
              )
     ),
-    tabPanel("Data_Table", fluid = TRUE,
+    tabPanel("Data Table", fluid = TRUE,
              mainPanel(
                dataTableOutput("table")
              )
