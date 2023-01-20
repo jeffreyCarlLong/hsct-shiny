@@ -1,4 +1,4 @@
-# HSC Transplant Shiny App
+# Hematopoietic Stem Cell Transplant (HSCT) Shiny App
 # Developed by Jeffrey Long 
 # jeffrey.c.long@gmail.com
 # Public GitHub Repo: 
